@@ -82,6 +82,20 @@ section {
     transform: scale(1.5);
 }
 
+@keyframes animation {
+    from {
+        transform: scale(0) rotate(720deg);
+    }
+    to {
+        transform: scale(1) rotate(0);
+        background-color: #3cf;
+    }
+}
+
+.animation {
+    animation: animation 2s both;
+}
+
 footer p {
     color: #fff;
 }
